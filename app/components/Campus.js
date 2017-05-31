@@ -49,7 +49,7 @@ export default function Campus(props) {
 		</table>
 		<hr />
 		<hr />
-		<h2><Link className='btn btn-success add-student-to-campus' to={`campuses/${campus.id}/students/add`}>Add Student</Link></h2>
+		<h2><Link className='btn btn-success' to={`campuses/${campus.id}/students/add`}>Add Student</Link></h2>
 
 		
 			

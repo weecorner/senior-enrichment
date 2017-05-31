@@ -14,7 +14,7 @@ export default function Students(props) {
 					<th>Email Address</th>
 					<th>Campus ID</th>
 					<th>
-						<Link className='btn btn-success add-new' to='/new-student'>
+						<Link className='btn btn-success' to='/new-student'>
 							<span className='glyphicon glyphicon-plus' /> Add Student
 						</Link>
 					</th>

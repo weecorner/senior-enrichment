@@ -27,7 +27,7 @@ export default function Campuses(props) {
 			</div>
 			<hr />
 			<hr />
-			<Link className='btn btn-success add-new' to='/new-campus'>
+			<Link className='btn btn-success' to='/new-campus'>
 							<span className='glyphicon glyphicon-plus' /> Add Campus
 						</Link>
 		</div>
