@@ -21,7 +21,7 @@ export default function Student(props) {
 						<td>Email Address: </td><td>{student.email}</td>
 					</tr>
 					<tr>
-						<td>Campus ID: </td><td>{student.campusId}</td>
+						<td>Campus ID: </td><td><Link to={`/campuses/${student.campusId}`}>{student.campusId}</Link></td>
 					</tr>
 				</tbody>
 			</table>
